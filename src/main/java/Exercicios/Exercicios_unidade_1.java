@@ -82,7 +82,44 @@ public class Exercicios_unidade_1 {
 //    5. Faça um programa que leia uma string e substitua todas as ocorrências da letra "e"
 //       por "*".
         System.out.println("\nResposta da questão 5");
+//        
 
+        String[] coisas = {"Escola", "Cerveja", "Sapato", "Igreja"};
+
+        for (int i = 0; i < coisas.length; i++) {
+            System.out.println(coisas[i].replace("e", "*").replace("E", "*"));
+        }
+
+//        
+//    6. Crie um array com os seguintes nomes: "Maria", "João", "Carlos", "Ana", "Beatriz". Em
+//       eguida, peça um nome ao usuário e diga se ele está ou não no array.
+        System.out.println("\nResposta da questão 6");
+//
+
+        String[] pessoas = {"Maria", "João", "Carlos", "Ana"};
+//        seletor
+        String chamada = "Pedro";
+//        coparacao
+        boolean presente = false;
+//        checagem
+        for (String nome : pessoas) {
+            if (nome.equals(chamada)) {
+                presente = true;
+                break;
+            }
+        }
+
+        if (presente) {
+            System.out.println("O aluno " + chamada + " Esta presente!");
+        } else {
+            System.out.println("O aluno " + chamada + " não esta presente!");
+        }
+//
+
+//    7. Crie um programa que leia um número inteiro não-negativo e calcule seu fatorial
+//       utilizando o laço for.
+//       Exemplo: Entrada = 5 Saída = 120
+        System.out.println("\nResposta da questão 7");
     }
 
 }
