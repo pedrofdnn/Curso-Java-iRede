@@ -14,14 +14,14 @@ public class Exercicio_09 {
         System.out.print("Digite o Seu nome Completo:");
         String receive = impuntName.nextLine();
 
-        String[] listNames = {receive};
+        String[] partsName = receive.split(" ");
 
-        for (String name : listNames) {
-            String firtsLetter = name.substring(0, 1).toUpperCase();
-            String secondLetter = name.substring(1);
+        for (String parts : partsName) {
 
-            System.out.println("Seu nome completo é: "
-                    + firtsLetter + "" + secondLetter);
+            String firtsLetter = parts.substring(0, 1).toUpperCase();
+            String secondLetter = parts.substring(1);
+
+            System.out.print("Seu nome completo é: " + firtsLetter + secondLetter);
 
         }
     }
