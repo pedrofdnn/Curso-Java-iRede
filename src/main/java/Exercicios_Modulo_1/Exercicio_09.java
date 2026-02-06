@@ -11,18 +11,26 @@ public class Exercicio_09 {
 
         Scanner impuntName = new Scanner(System.in);
 
-        System.out.print("Digite o Seu nome Completo:");
+        System.out.print("Digite o seu nome completo:");
         String receive = impuntName.nextLine();
-
+        
         String[] partsName = receive.split(" ");
 
+        String result = "";
+
         for (String parts : partsName) {
+            
+            if (!parts.isEmpty()) {
+                String firtsLetter = parts.substring(0, 1).toUpperCase();
+                String secondLetter = parts.substring(1);
 
-            String firtsLetter = parts.substring(0, 1).toUpperCase();
-            String secondLetter = parts.substring(1);
-
-            System.out.print("Seu nome completo é: " + firtsLetter + secondLetter);
-
+                result += firtsLetter + secondLetter + " ";
+            }
         }
+
+        System.out.print("Seu nome completo é: " + result.trim());
+        System.out.print("Seu nome completo é: " + result.trim());
+        System.out.print("Seu nome completo é: " + result.trim());
+        
     }
 }
