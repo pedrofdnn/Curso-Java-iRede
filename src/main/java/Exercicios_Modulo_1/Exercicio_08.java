@@ -35,15 +35,13 @@ public class Exercicio_08 {
 
             switch (select) {
                 case 1:
-                    System.out.println("Voce escolheu a opção: " + ola);
-
+                    System.out.println("Voce escolheu a opção: " + ola + ": Olá.");
                     break;
                 case 2:
-                    System.out.println("Voce escolheu a opção: " + tchau);
-
+                    System.out.println("Voce escolheu a opção: " + tchau + ": Tchau.");
                     break;
                 case 3:
-                    System.out.println("Voce escolheu a opção: " + encerrar);
+                    System.out.println("Voce escolheu a opção: " + encerrar + ": Encerrar.");
                     check = false;
                     break;
                 default:

@@ -11,7 +11,7 @@ public class Exercicio_05 {
 
         Scanner leitor = new Scanner(System.in);
 
-        System.out.print("Digite uma palavra com a letra e: ");
+        System.out.print("Digite uma palavra com a letra 'E': ");
 
         String textoDigitado = leitor.nextLine();
 

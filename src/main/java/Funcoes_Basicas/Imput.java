@@ -23,7 +23,7 @@ public class Imput {
 //     Principais Métodos de Leitura:
 //      nextLine(): Lê uma linha inteira de texto (incluindo espaços) até a tecla Enter.
 //      next(): Lê a próxima palavra (para na primeira quebra de espaço).
-//      nextInt()/nextDouble(): Leem tipos numéricos específicos. 
+//      nextInt() / nextDouble(): Leem tipos numéricos específicos. 
     }
 
 }
