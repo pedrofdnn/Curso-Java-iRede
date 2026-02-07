@@ -13,24 +13,31 @@ public class Exercicio_09 {
 
         System.out.print("Digite o seu nome completo:");
         String receive = impuntName.nextLine();
-        
+
         String[] partsName = receive.split(" ");
+
+        String firtsParty = partsName[0].substring(0, 1).toUpperCase()
+                + partsName[0].substring(1).toLowerCase();
+
+        String secondParty = partsName[partsName.length - 1].substring(0, 1).toUpperCase()
+                + partsName[partsName.length - 1].substring(1).toLowerCase();
 
         String result = "";
 
         for (String parts : partsName) {
-            
+
             if (!parts.isEmpty()) {
                 String firtsLetter = parts.substring(0, 1).toUpperCase();
                 String secondLetter = parts.substring(1);
 
                 result += firtsLetter + secondLetter + " ";
             }
+
         }
 
-        System.out.print("Seu nome completo é: " + result.trim());
-        System.out.print("Seu nome completo é: " + result.trim());
-        System.out.print("Seu nome completo é: " + result.trim());
-        
+        System.out.println("Seu nome completo é: " + result.trim());
+        System.out.println("Primeiro nome: " + firtsParty);
+        System.out.println("Último nome: " + secondParty);
+
     }
 }
