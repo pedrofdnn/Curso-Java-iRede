@@ -11,9 +11,7 @@ import java.util.Scanner;
 public class Exercicio_08 {
 
     public static void main(String[] args) {
-
-        System.out.println("\nResposta da questão 8");
-//        
+      
 //        Menu para exibir
         System.out.println("MENU DE OPÇÕES:");
         System.out.println("1 - Olá!");
