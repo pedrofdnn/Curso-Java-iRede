@@ -1,4 +1,4 @@
-package Programacao_Orientado_Objetos;
+package Programacao_Orientado_Objetos.Encapsulamento_Getters_Setters;
 
 import java.util.Scanner;
 

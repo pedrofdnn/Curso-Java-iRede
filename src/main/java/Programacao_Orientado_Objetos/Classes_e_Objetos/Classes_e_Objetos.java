@@ -1,4 +1,4 @@
-package Programacao_Orientado_Objetos;
+package Programacao_Orientado_Objetos.Classes_e_Objetos;
 
 class Celular {                         // A Classe (O Molde):
 
