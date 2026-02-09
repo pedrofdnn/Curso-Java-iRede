@@ -27,7 +27,7 @@ class CarroEletrico extends Carro {
     }
 }
 
-public class Hierarquia_de_Classes {
+public class Ex_Hierarquia_de_Classes {
 
     public static void main(String[] args) {
         CarroEletrico meuTesla = new CarroEletrico();

@@ -19,7 +19,7 @@ class Moto extends Veiculo {
     }
 }
 
-public class Herança {
+public class Ex_Herança {
 
     public static void main(String[] args) {
         // Criando o objeto da classe FILHA

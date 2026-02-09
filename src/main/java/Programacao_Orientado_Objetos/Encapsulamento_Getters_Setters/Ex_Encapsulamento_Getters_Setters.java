@@ -23,7 +23,7 @@ class Conta {
     }
 }
 
-public class Encapsulamento_Getters_Setters {
+public class Ex_Encapsulamento_Getters_Setters {
 
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);

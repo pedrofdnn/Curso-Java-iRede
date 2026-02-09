@@ -12,7 +12,7 @@ class Celular {                         // A Classe (O Molde):
     }
 }
 
-public class Classes_e_Objetos {        // O Uso (Criando Objetos):
+public class Ex_Classes_e_Objetos {        // O Uso (Criando Objetos):
 
     public static void main(String[] args) {
         
