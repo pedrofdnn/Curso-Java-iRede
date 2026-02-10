@@ -1,7 +1,7 @@
 # <center> Exercícios do módulo 1: </center>
 
 | Exercicios Modulo 1. |
-|:-------------:|
+|-------------|
 |<p style="text-align: left;"> 1. Escreva um programa Java que use os operadores lógicos para vericar se um  número está entre 10 e 20 (inclusive). Use int numero = 15.
 |<p style="text-align: left;"> 2. Escreva um programa que mostre na tela os tipos de dados primitivos em Javacom seus valores atribuídos.
 |<p style="text-align: left;"> 3. Implemente um programa que exiba um menu com 3 opções:<br> 1 - Somar dois números <br> 2 - Subtrair dois números <br> 3 - Sair O programa deve usar switch para executar a operação escolhida.
