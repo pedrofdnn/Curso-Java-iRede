@@ -1,4 +1,4 @@
-package Exercicios_Modulo_1;
+package Exercicios_por_modulos.Exercicios_Modulo_1;
 //
 //    6. Crie um array com os seguintes nomes: "Maria", "João", "Carlos", "Ana", "Beatriz". Em
 //       seguida, peça um nome ao usuário e diga se ele está ou não no array.

@@ -1,4 +1,4 @@
-package Exercicios_Modulo_1;
+package Exercicios_por_modulos.Exercicios_Modulo_1;
 
 //    7. Crie um programa que leia um número inteiro não-negativo e calcule seu fatorial
 //       utilizando o laço for.

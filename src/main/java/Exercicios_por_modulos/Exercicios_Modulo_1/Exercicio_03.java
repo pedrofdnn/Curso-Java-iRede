@@ -1,4 +1,4 @@
-package Exercicios_Modulo_1;
+package Exercicios_por_modulos.Exercicios_Modulo_1;
 
 //    3. Implemente um programa que exiba um menu com 3 opções:
 //       1 - Somar dois números

@@ -1,4 +1,4 @@
-package Exercicios_Modulo_1;
+package Exercicios_por_modulos.Exercicios_Modulo_1;
 
 //    2. Escreva um programa que mostre na tela os tipos de dados primitivos em Java
 //       com seus valores atribuídos.

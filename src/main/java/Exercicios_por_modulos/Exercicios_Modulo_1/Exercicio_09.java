@@ -1,4 +1,4 @@
-package Exercicios_Modulo_1;
+package Exercicios_por_modulos.Exercicios_Modulo_1;
 
 //  9. Faça um programa que leia o nome completo de uma pessoa e mostre o primeiro
 //     nome e o último nome separadamente.

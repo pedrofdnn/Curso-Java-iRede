@@ -1,4 +1,4 @@
-package Exercicios_Modulo_1;
+package Exercicios_por_modulos.Exercicios_Modulo_1;
 
 //10. Escreva um programa que leia uma frase e conte quantas palavras ela possui
 //(considere as palavras separadas por espaços).

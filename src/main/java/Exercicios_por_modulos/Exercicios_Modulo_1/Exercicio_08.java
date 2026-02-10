@@ -1,4 +1,4 @@
-package Exercicios_Modulo_1;
+package Exercicios_por_modulos.Exercicios_Modulo_1;
 
 //    8. Crie um programa que exiba um menu repetitivo com as opções:
 //       1 - Dizer "Olá"

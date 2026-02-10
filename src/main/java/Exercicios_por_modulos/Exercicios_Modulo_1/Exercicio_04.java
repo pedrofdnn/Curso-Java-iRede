@@ -1,4 +1,4 @@
-package Exercicios_Modulo_1;
+package Exercicios_por_modulos.Exercicios_Modulo_1;
 //
 //    4. Crie um programa que leia um número inteiro do usuário e imprima a tabuada
 //       desse número (de 1 a 10), usando um laço for.

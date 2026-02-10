@@ -1,4 +1,4 @@
-package Exercicios_Modulo_1;
+package Exercicios_por_modulos.Exercicios_Modulo_1;
 //
 //    5. Faça um programa que leia uma string e substitua todas as ocorrências da letra "e"
 //       por "*".

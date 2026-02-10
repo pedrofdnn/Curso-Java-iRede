@@ -1,4 +1,4 @@
-package Exercicios_Modulo_1;
+package Exercicios_por_modulos.Exercicios_Modulo_1;
 
 //    1. Escreva um programa Java que use os operadores lógicos para vericar se um
 //      número está entre 10 e 20 (inclusive). Use int numero = 15;.
