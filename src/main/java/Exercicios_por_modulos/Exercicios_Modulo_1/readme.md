@@ -11,4 +11,4 @@
 |<p style="text-align: justify;"> 7. Crie um programa que leia um número inteiro não-negativo e calcule seu fatorial utilizando o laço for. Exemplo: Entrada = 5 Saída = 120.
 |<p style="text-align: justify;"> 8. Crie um programa que exiba um menu repetitivo com as opções: 1 - Dizer "Olá" 2 - Dizer "Tchau" 3 - Encerrar O menu deve continuar aparecendo até que o usuário escolha a opção 3.
 |<p style="text-align: justify;"> 9. Faça um programa que leia o nome completo de uma pessoa e mostre o primeiro nome e o último nome separadamente.
-|<p style="text-align: justify;"> 10. Escreva um programa que leia uma frase e conte quantas palavras ela possui (considere as palavras separadas por espaços).
+|<p style="text-align: justify;"> 10. Escreva um programa que leia uma frase e conte quantas palavras ela possui (considere as palavras separadas por espaços) .

@@ -2,7 +2,7 @@
 
 | Exercicios Modulo 2. |
 |:-------------:|
-| <p style="text-align: justify;"> 1. Crie uma classe ContaBancaria com os atributos privados numero, titular e saldo. Implemente getters e setters, garantindo que o saldo não possa ser alterado diretamente (não crie setSaldo). Em vez disso, crie os métodos depositar() e sacar() para modicar o saldo.
+|<p style="text-align: justify;"> 1. Crie uma classe ContaBancaria com os atributos privados numero, titular e saldo. Implemente getters e setters, garantindo que o saldo não possa ser alterado diretamente (não crie setSaldo). Em vez disso, crie os métodos depositar() e sacar() para modicar o saldo.
 |<p style="text-align: justify;"> 2. Crie uma classe Aluno com atributos privados nome e nota. Implemente métodos get e set para ambos. No método setNota, adicione uma vericação para garantir que o valor da nota esteja entre 0 e 10. Caso esteja fora desse intervalo, não permita a alteração.
 |<p style="text-align: justify;"> 3. Crie uma classe Produto com atributos nome, preco e quantidadeEstoque. Garanta que apenas métodos setters possam alterar os valores de preco e quantidadeEstoque. Em seguida, instancie um produto e altere seus valores utilizando os setters.
 |<p style="text-align: justify;"> 4. Implemente uma hierarquia de classes com 3 níveis: Pessoa -> Funcionário -> Engenheiro. Cada classe deve possuir ao menos um atributo e um método. Demonstre a criação de um objeto Engenheiro e a chamada de métodos das 3 classes.
