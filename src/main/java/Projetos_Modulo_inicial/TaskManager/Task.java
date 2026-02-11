@@ -16,7 +16,7 @@ public class Task {
         return this.id;
     }
 
-    public String getDescicao() {
+    public String getDescricao() {
         return this.descricao;
     }
 

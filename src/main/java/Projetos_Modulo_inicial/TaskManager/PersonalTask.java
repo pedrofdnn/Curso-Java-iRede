@@ -1,13 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Projetos_Modulo_inicial.TaskManager;
 
-/**
- *
- * @author pedro
- */
-public class PersonalTask {
-    
+public class PersonalTask extends Task {
+
+    private String local;
+
+    public PersonalTask(int id, String descricao, String local) {
+        super(id, descricao);
+        this.local = local;
+    }
+
+    public String getlocal() {
+        return this.local;
+    }
+
 }

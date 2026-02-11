@@ -1,13 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Projetos_Modulo_inicial.TaskManager;
 
-/**
- *
- * @author pedro
- */
-public class WorkTask {
-    
+public class WorkTask extends Task {
+
+    private String prioridade;
+
+    public WorkTask(int id, String descricao, String prioridade) {
+        super(id, descricao);
+
+        this.prioridade = prioridade;
+    }
+
+    public String getPrioridade() {
+        return prioridade;
+    }
 }
