@@ -9,7 +9,7 @@ public class PersonalTask extends Task {
         this.local = local;
     }
 
-    public String getlocal() {
+    public String getLocal() {
         return this.local;
     }
 

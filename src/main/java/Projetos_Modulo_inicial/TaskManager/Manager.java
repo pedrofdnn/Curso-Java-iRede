@@ -10,15 +10,27 @@ public class Manager {
 
         for (Task item : taskLists) {
 
-            if (item instanceof PersonalTask ) {
-                PersonalTask p = (PersonalTask) item;
+            if (item instanceof PersonalTask) {
 
+                PersonalTask p = (PersonalTask) item;
                 System.out.print(p.getLocal());
-            } else {
-                System.out.print(item);
+
+            } else if (item instanceof WorkTask) {
+
+                WorkTask w = (WorkTask) item;
+                System.out.println(w.getPrioridade());
             }
         }
 
+    }
+
+    public void addPessoal(int Id, String Desc, String Local) {
+        taskLists.add(new PersonalTask(Id, Desc, Local));
+
+    }
+
+    public void addWork(int Id, String Desc, String Prioridade) {
+        taskLists.add(new WorkTask(Id, Desc, Prioridade));
     }
 
 }
