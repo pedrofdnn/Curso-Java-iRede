@@ -2,15 +2,14 @@ package Projetos_Modulo_inicial.TaskManager;
 
 public class WorkTask extends Task {
 
-    private String prioridade;
+    private String worTask;
 
-    public WorkTask(int id, String descricao, String prioridade) {
+    public WorkTask(int id, String descricao, String worTask) {
         super(id, descricao);
-
-        this.prioridade = prioridade;
+        this.worTask = worTask;
     }
 
-    public String getPrioridade() {
-        return prioridade;
+    public String getWorTask() {
+        return worTask;
     }
 }

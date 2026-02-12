@@ -2,15 +2,15 @@ package Projetos_Modulo_inicial.TaskManager;
 
 public class PersonalTask extends Task {
 
-    private String local;
+    private String pTask;
 
-    public PersonalTask(int id, String descricao, String local) {
+    public PersonalTask(int id, String descricao, String pTask) {
         super(id, descricao);
-        this.local = local;
+        this.pTask = pTask;
     }
 
-    public String getLocal() {
-        return this.local;
+    public String getpTask() {
+        return this.pTask;
     }
 
 }

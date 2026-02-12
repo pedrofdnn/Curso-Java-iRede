@@ -8,29 +8,40 @@ public class Manager {
 
     public void listarTarefas() {
 
-        for (Task item : taskLists) {
+        if (taskLists.isEmpty()) {
+            System.out.print("\nNenhuma Tarefa cadastrada no momento.\n");
+        } else {
 
-            if (item instanceof PersonalTask) {
+            for (Task item : taskLists) {
+                if (item instanceof PersonalTask) {
 
-                PersonalTask p = (PersonalTask) item;
-                System.out.print(p.getLocal());
+                    PersonalTask p = (PersonalTask) item;
+                    System.out.print("Lista de Tarefas pessoais: "
+                            + "ID: " + p.getId() + " "
+                            + "Tarefa: '" + p.getDescricao() + "' \n");
 
-            } else if (item instanceof WorkTask) {
+                } else if (item instanceof WorkTask) {
 
-                WorkTask w = (WorkTask) item;
-                System.out.println(w.getPrioridade());
+                    WorkTask w = (WorkTask) item;
+                    System.out.print("Lista de Tarefas de Trabalho: "
+                            + "ID:" + w.getId() + " "
+                            + "Tarefa: '" + w.getDescricao() + "' \n");
+                }
             }
         }
+    }
+
+    public void addPessoal(String Desc, String pTasks) {
+        int novoId = taskLists.size() + 1;
+        taskLists.add(new PersonalTask(novoId, Desc, pTasks));
+        System.out.println("v Tarefa pessoal '" + Desc + "' adicionada com sucesso!");
 
     }
 
-    public void addPessoal(int Id, String Desc, String Local) {
-        taskLists.add(new PersonalTask(Id, Desc, Local));
-
-    }
-
-    public void addWork(int Id, String Desc, String Prioridade) {
-        taskLists.add(new WorkTask(Id, Desc, Prioridade));
+    public void addWork(String Desc, String worTasks) {
+        int novoId = taskLists.size() + 1;
+        taskLists.add(new WorkTask(novoId, Desc, worTasks));
+        System.out.println("v Tarefa pessoal '" + Desc + "' adicionada com sucesso!");
     }
 
 }
