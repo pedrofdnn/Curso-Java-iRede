@@ -4,7 +4,7 @@ public class PersonalTask extends Task {
 
     private String pTask;
 
-    public PersonalTask(int id, String descricao, String pTask) {
+    public PersonalTask(long id, String descricao, String pTask) {
         super(id, descricao);
         this.pTask = pTask;
     }
